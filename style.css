@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    background-color: #2f2b2b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1.2rem;
+}
+
+.menu-container img {
+    width: 150px;
+}
+
+.menu-container .menu-list ul {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    font-size: large;
+}
+
+.menu-container .menu-list ul li {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border: 3px solid #2f2b2b;
+    border-radius: none;
+}
+
+.menu-container .menu-list ul li:hover {
+    border-bottom: 3px solid red;
+}
+
+.banner-container {
+    background: url('./images/background.png'), linear-gradient(45deg, #171717, #000000);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.banner-container .banner-text {
+    color: white;
+}
+
+.banner-container .banner-text .text, .about-us-container .about-us .about-text .text {
+    margin-bottom: 10px;
+}
+
+.banner-container .banner-text h1 {
+    font-size: 3rem;
+}
+
+.banner-container .banner-text p {
+    font-size: 1.1rem;
+}
+
+.banner-container .banner-text button, .about-us-container .about-us .about-text button {
+    border: none;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.banner-container .banner-text button:hover, .about-us-container .about-us .about-text button:hover {
+    background-color: #ff4242;
+}
+
+.banner-container .banner-image img, .about-us-container .about-image img {
+    width: 300px;
+}
+
+.about-us-container .section-heading {
+    text-align: center;
+    font-size: 3.2rem;
+    margin: 1rem 0;
+}
+
+.about-us-container .about-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
